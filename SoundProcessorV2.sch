@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SoundProcessorV2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -486,7 +487,7 @@ F 3 "" H 5050 4350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MSGEQ7 U3
+L MSGEQ7-RESCUE-SoundProcessorV2 U3
 U 1 1 584AE3CA
 P 7900 2150
 F 0 "U3" H 8200 1550 50  0000 C CNN
@@ -629,7 +630,7 @@ F 3 "" H 7250 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MSGEQ7 U4
+L MSGEQ7-RESCUE-SoundProcessorV2 U4
 U 1 1 584CE4C3
 P 8000 4650
 F 0 "U4" H 8300 4050 50  0000 C CNN
@@ -1133,7 +1134,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 600  6250 600 
 Wire Wire Line
-	6250 600  6250 3200
+	5650 600  5650 3200
 Connection ~ 1500 4950
 Wire Wire Line
 	6500 7400 6500 3200
@@ -1142,7 +1143,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 5650 6300 5650
 Wire Wire Line
-	6300 5650 6300 3200
+	5700 5650 5700 3200
 Wire Wire Line
-	6300 3200 6250 3200
+	5700 3200 5650 3200
 $EndSCHEMATC
